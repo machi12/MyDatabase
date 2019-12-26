@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd2e28ed-f5a0-4276-a1ab-bd7c55681a46" name="Default Changelist" comment="" />
+    <list default="true" id="dd2e28ed-f5a0-4276-a1ab-bd7c55681a46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Format.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SqlAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Start.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VHLLOs0a1yLL1Wq1ZfFZ5PKCF1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,9 +31,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Start" />
+      <module name="MyDatabase" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -50,6 +74,7 @@
       <updated>1576905016659</updated>
       <workItem from="1576905020424" duration="1465000" />
       <workItem from="1577073963761" duration="59000" />
+      <workItem from="1577347191298" duration="4734000" />
     </task>
     <servers />
   </component>
@@ -57,10 +82,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="355" y="52" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1577347676884">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="355" y="52" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1577347676884" />
     <state x="321" y="0" key="FileChooserDialogImpl" timestamp="1576905173849">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="0" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1576905173849" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1577351952470">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1577351952470" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1577351952469">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1577351952469" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1577351952468">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1577351952468" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1577351952470">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1577351952470" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1576905468476">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
