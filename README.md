@@ -7,3 +7,7 @@
 ### 1.2
 
 实现了create database 数据库名称;命令
+
+### 1.3
+
+实现了show databases;命令
