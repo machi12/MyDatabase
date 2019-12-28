@@ -15,6 +15,9 @@ public class Format {
         sql.toLowerCase();
         //通过正则表达式将多个空格转换为一个空格
         String str = sql.replaceAll("\\s{2,}", " ");
-        return str;
+        //去掉;前的空格
+        String s = str.replaceFirst("( ;)$", ";");
+        //System.out.println(s);
+        return s;
     }
 }

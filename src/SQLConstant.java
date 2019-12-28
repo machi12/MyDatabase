@@ -5,9 +5,33 @@
  */
 public class SQLConstant {
 
+    //数据库的根路径
     private static final String path = "E:\\MyDatabase";
+
+    //数据库的当前路径
+    private static String nowPath = path;
 
     public static String getPath(){
         return path;
+    }
+
+    /**
+     * @Description  ： 返回当前路径
+     * @author       : 马驰
+     * @param        : 无
+     * @return       : 无
+     */
+    public static String getNowPath(){
+        return nowPath;
+    }
+
+    /**
+     * @Description  ： 设置当前路径
+     * @author       : 马驰
+     * @param        : name 数据库名
+     * @return       : 无
+     */
+    public static void setNowPath(String name){
+        nowPath = nowPath + "\\" + name;
     }
 }

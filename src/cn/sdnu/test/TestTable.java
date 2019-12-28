@@ -34,4 +34,11 @@ public class TestTable {
     public void testHelloworld() {
         System.out.println("Helloworld");
     }
+
+    @Test
+    public void testOne(){
+        String one = "abcdefg";
+        String two = one.substring(0, one.length());
+        System.out.println(two);
+    }
 }

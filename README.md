@@ -6,8 +6,12 @@
 
 ### 1.2
 
-实现了create database 数据库名称;命令
+实现了create database 数据库名称;命令.
 
 ### 1.3
 
-实现了show databases;命令
+实现了show databases;命令.
+
+### 1.4
+
+实现了show table;命令以及create table的部分命令,修复了指令识别的一个bug.
