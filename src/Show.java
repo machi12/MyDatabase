@@ -32,7 +32,7 @@ public class Show {
 
         //列出所有该数据库下所有的表格
         else{
-            boolean c = sql.endsWith(" table;");
+            boolean c = sql.endsWith(" tables;");
             if(c){
                 String nowPath = SQLConstant.getNowPath();
                 List<String> tableList = Utils.getAllTables(nowPath);

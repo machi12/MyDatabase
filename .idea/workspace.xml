@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd2e28ed-f5a0-4276-a1ab-bd7c55681a46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Quit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Use.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Create.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/Create.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Help.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/Help.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Format.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/Format.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/SQLConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/SQLConstant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Show.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/Show.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/SqlAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/SqlAnalysis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/Utils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/cn/sdnu/test/TestTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/cn/sdnu/test/TestTable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Create.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Format.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Format.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Help.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SQLConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQLConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Show.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SqlAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SqlAnalysis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/sdnu/test/TestTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/sdnu/test/TestTable.java" afterDir="false" />
     </list>
@@ -115,9 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTable.testTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyDatabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sdnu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.sdnu.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.sdnu.test.TestTable" />
+      <option name="METHOD_NAME" value="testTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Start" />
+        <item itemvalue="JUnit.TestTable.testTwo" />
         <item itemvalue="JUnit.TestTable.testOne" />
         <item itemvalue="JUnit.TestTable.testHelloworld" />
         <item itemvalue="Application.Test" />
@@ -154,7 +164,10 @@
       <workItem from="1577422391914" duration="172000" />
       <workItem from="1577431076579" duration="3199000" />
       <workItem from="1577456067170" duration="4981000" />
-      <workItem from="1577497367118" duration="1179000" />
+      <workItem from="1577497367118" duration="2072000" />
+      <workItem from="1577630916546" duration="3005000" />
+      <workItem from="1577678043907" duration="3505000" />
+      <workItem from="1577687835707" duration="8908000" />
     </task>
     <servers />
   </component>
@@ -165,14 +178,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Auto_Import" timestamp="1577678878729">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Auto_Import/0.0.1280.680@0.0.1280.680" timestamp="1577678878729" />
     <state x="378" y="194" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1577431970088">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="378" y="194" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1280.680@0.0.1280.680" timestamp="1577431970088" />
-    <state x="425" y="226" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577433196099">
+    <state x="425" y="226" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577633921544">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="425" y="226" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1577433196099" />
+    <state x="425" y="226" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1577633921544" />
     <state x="355" y="52" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1577347676884">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -185,22 +202,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="0" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1577374922516" />
-    <state width="1237" height="356" key="GridCell.Tab.0.bottom" timestamp="1577498557883">
+    <state width="1237" height="522" key="GridCell.Tab.0.bottom" timestamp="1577720480546">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="356" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1577498557883" />
-    <state width="1237" height="356" key="GridCell.Tab.0.center" timestamp="1577498557883">
+    <state width="1237" height="522" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1577720480546" />
+    <state width="1237" height="522" key="GridCell.Tab.0.center" timestamp="1577720480546">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="356" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1577498557883" />
-    <state width="1237" height="356" key="GridCell.Tab.0.left" timestamp="1577498557883">
+    <state width="1237" height="522" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1577720480546" />
+    <state width="1237" height="522" key="GridCell.Tab.0.left" timestamp="1577720480546">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="356" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1577498557883" />
-    <state width="1237" height="356" key="GridCell.Tab.0.right" timestamp="1577498557883">
+    <state width="1237" height="522" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1577720480546" />
+    <state width="1237" height="522" key="GridCell.Tab.0.right" timestamp="1577720480546">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="356" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1577498557883" />
+    <state width="1237" height="522" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1577720480546" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1577461289631">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -229,13 +246,17 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="349" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1577417781144" />
+    <state x="756" y="261" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577718834741">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="756" y="261" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1577718834741" />
     <state x="28" y="0" key="new project wizard" timestamp="1577422563550">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="28" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1577422563550" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1577458003343">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1577633357726">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1577458003343" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1577633357726" />
   </component>
 </project>

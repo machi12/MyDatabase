@@ -11,6 +11,9 @@ public class SQLConstant {
     //数据库的当前路径
     private static String nowPath = path;
 
+    //自定义的分隔符
+    private static final String separate = "~";
+
     public static String getPath(){
         return path;
     }
@@ -34,4 +37,9 @@ public class SQLConstant {
     public static void setNowPath(String name){
         nowPath = nowPath + "\\" + name;
     }
+
+    public static String getSeparate(){
+        return separate;
+    }
+
 }

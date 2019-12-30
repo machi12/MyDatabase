@@ -41,4 +41,12 @@ public class TestTable {
         String two = one.substring(0, one.length());
         System.out.println(two);
     }
+
+    @Test
+    public void testTwo(){
+        String s = "create table two(one);";
+        String str = s.replaceAll("one", "oneone");
+        System.out.println(s);
+        System.out.println(str);
+    }
 }

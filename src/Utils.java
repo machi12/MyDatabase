@@ -64,20 +64,25 @@ public class Utils {
     /**
      * @Description  ： 获取当前数据库下的所有表
      * @author       : 马驰
-     * @param        : nowPath 当前路劲
+     * @param        : nowPath 当前路径
      * @return       : 所有表名组成的列表
      */
     public static List<String> getAllTables(String nowPath){
         List<String> list = new ArrayList<>();
         File file = new File(nowPath);
         File[] fileList = file.listFiles();
-        for(int i = 0; i < fileList.length; i++){
-            if(fileList[i].isFile()){
-                String name = fileList[i].getName();
-                int index = name.lastIndexOf(".");
-                String tableName = name.substring(0, index);
-                list.add(tableName);
+        if(fileList != null){
+            for(int i = 0; i < fileList.length; i++) {
+                if (fileList[i].isFile()) {
+                    String name = fileList[i].getName();
+                    int index = name.lastIndexOf(".");
+                    String tableName = name.substring(0, index);
+                    list.add(tableName);
+                }
             }
+        }
+        else{
+
         }
         return list;
     }
