@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd2e28ed-f5a0-4276-a1ab-bd7c55681a46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Describe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Create.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/Create.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Format.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/Format.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/SQLConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/SQLConstant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Show.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/Show.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/cn/sdnu/test/TestTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/cn/sdnu/test/TestTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Quit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/Quit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/SqlAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/SqlAnalysis.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Create.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SQLConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQLConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Show.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/sdnu/test/TestTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/sdnu/test/TestTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SqlAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SqlAnalysis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +164,7 @@
       <workItem from="1577497367118" duration="2072000" />
       <workItem from="1577630916546" duration="3005000" />
       <workItem from="1577678043907" duration="3505000" />
-      <workItem from="1577687835707" duration="8908000" />
+      <workItem from="1577687835707" duration="15114000" />
     </task>
     <servers />
   </component>
@@ -202,22 +199,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="0" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1577374922516" />
-    <state width="1237" height="522" key="GridCell.Tab.0.bottom" timestamp="1577720480546">
+    <state width="1237" height="392" key="GridCell.Tab.0.bottom" timestamp="1577787937716">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="522" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1577720480546" />
-    <state width="1237" height="522" key="GridCell.Tab.0.center" timestamp="1577720480546">
+    <state width="1237" height="392" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1577787937716" />
+    <state width="1237" height="392" key="GridCell.Tab.0.center" timestamp="1577787937716">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="522" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1577720480546" />
-    <state width="1237" height="522" key="GridCell.Tab.0.left" timestamp="1577720480546">
+    <state width="1237" height="392" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1577787937716" />
+    <state width="1237" height="392" key="GridCell.Tab.0.left" timestamp="1577787937716">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="522" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1577720480546" />
-    <state width="1237" height="522" key="GridCell.Tab.0.right" timestamp="1577720480546">
+    <state width="1237" height="392" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1577787937716" />
+    <state width="1237" height="392" key="GridCell.Tab.0.right" timestamp="1577787937716">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="522" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1577720480546" />
+    <state width="1237" height="392" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1577787937716" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1577461289631">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -254,9 +251,20 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="28" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1577422563550" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1577633357726">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1577783671604">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1577633357726" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1577783671604" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Create.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -16,6 +16,7 @@ public class SqlAnalysis {
     private static final String show = "show";
     private static final String use = "use";
     private static final String quit = "quit";
+    private static final String describe = "describe";
 
 
     public static void analysis(String sql){
@@ -47,8 +48,12 @@ public class SqlAnalysis {
             case quit:
                 Quit.quitSql();
                 break;
+            case describe:
+                Describe.describeSql(sql);
+                break;
             default:
                 System.out.println("输入的命令无法识别,可以输入help查看目前支持的sql语句");
+                Input.get();
                 break;
         }
         //System.out.println(start);

@@ -6,6 +6,6 @@
 public class Quit {
 
     public static void quitSql(){
-        System.out.println("MyDatabase退出成功");
+        System.out.println("Bye");
     }
 }

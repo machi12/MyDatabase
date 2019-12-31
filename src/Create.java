@@ -27,6 +27,7 @@ public class Create {
             String dbName = sql.substring(16, sql.length()-1);
             //System.out.println(dbName);
             createDir(dbName);
+            System.out.println("Query OK");
         }
         //判断是否为创建表格的方法
         else{
@@ -36,6 +37,7 @@ public class Create {
                 //判断输入语句的括号是否匹配
                 if(Utils.bracketMatch(sql)) {
                     createTable(sql);
+                    System.out.println("Query OK");
                 }
                 else{
                     System.out.println("ERROR: 语句有错误");
@@ -173,7 +175,7 @@ public class Create {
     /**
      * @Description  : 将字符串数组写入文件
      * @author       : 马驰
-     * @param        : s 需要写入的字符串数组
+     * @param        : list 需要写入的字符串列表
      * @return       : 无
      */
     private static void writeFile(List<String> list){
@@ -187,15 +189,18 @@ public class Create {
         String nowPath = path + "\\" + tName;
         //拼接字符串
         for(String s1: list){
+            //System.out.print(s1 + "");
             str += s1 + sep;
         }
+        //System.out.println();
+        //System.out.println(str);
         //System.out.println(str);
 
 
         try{
             FileOutputStream fos = new FileOutputStream(
                     new File(nowPath), true);
-            str += str + "\r\n";
+            str += "\r\n";
             fos.write(str.getBytes());
             fos.close();
         }catch (IOException e){
