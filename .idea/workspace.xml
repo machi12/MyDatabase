@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd2e28ed-f5a0-4276-a1ab-bd7c55681a46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sdnu/machi/Insert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Create.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Describe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Format.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Help.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Quit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/SQLConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Show.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/SqlAnalysis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/TableGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Use.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/cn/sdnu/test/TableGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/cn/sdnu/test/TestTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Create.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Describe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Describe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Format.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Format.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Help.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Quit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SQLConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/SQLConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Show.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SqlAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/SqlAnalysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TableGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/TableGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Use.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/sdnu/test/TableGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/sdnu/test/TestTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdnu/machi/Format.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Format.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdnu/machi/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Insert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +162,7 @@
       <workItem from="1577687835707" duration="18324000" />
       <workItem from="1577805757649" duration="1397000" />
       <workItem from="1577954793541" duration="4253000" />
+      <workItem from="1577966426415" duration="4876000" />
     </task>
     <servers />
   </component>
@@ -210,10 +181,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="378" y="194" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1280.680@0.0.1280.680" timestamp="1577431970088" />
-    <state x="425" y="226" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577633921544">
+    <state x="425" y="226" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577967901460">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="425" y="226" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1577633921544" />
+    <state x="425" y="226" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1577967901460" />
     <state x="355" y="52" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1577347676884">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -230,22 +201,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="0" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1577374922516" />
-    <state width="1237" height="210" key="GridCell.Tab.0.bottom" timestamp="1577959106401">
+    <state width="1237" height="467" key="GridCell.Tab.0.bottom" timestamp="1577971327954">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="210" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1577959106401" />
-    <state width="1237" height="210" key="GridCell.Tab.0.center" timestamp="1577959106397">
+    <state width="1237" height="467" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1577971327954" />
+    <state width="1237" height="467" key="GridCell.Tab.0.center" timestamp="1577971327954">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="210" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1577959106397" />
-    <state width="1237" height="210" key="GridCell.Tab.0.left" timestamp="1577959106397">
+    <state width="1237" height="467" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1577971327954" />
+    <state width="1237" height="467" key="GridCell.Tab.0.left" timestamp="1577971327954">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="210" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1577959106397" />
-    <state width="1237" height="210" key="GridCell.Tab.0.right" timestamp="1577959106397">
+    <state width="1237" height="467" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1577971327954" />
+    <state width="1237" height="467" key="GridCell.Tab.0.right" timestamp="1577971327954">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="210" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1577959106397" />
+    <state width="1237" height="467" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1577971327954" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1577461289631">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -282,9 +253,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="28" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1577422563550" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1577783671604">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1577969152848">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1577783671604" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1577969152848" />
   </component>
 </project>
