@@ -1,9 +1,6 @@
 package sdnu.machi;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -16,10 +13,12 @@ import java.util.regex.Pattern;
  */
 public class Insert {
 
+    private static String tableName;
+
     public static void insertSql(String sql){
         int index = sql.indexOf("(");
         String name = sql.substring(12, index);
-        String tableName = name.trim();
+        tableName = name.trim();
         //System.out.println(tableName);
 
         //判断是否有该表
@@ -49,7 +48,7 @@ public class Insert {
                 System.out.println("ERROR: 语句有错误");
                 Input.get();
             } else {
-                List<String> columnName = getColumnName(nowPath);
+                List<String> columnName = getColumnName(nowPath, 1);
 //                for(String s: columnName){
 //                    System.out.println(s);
 //                }
@@ -64,10 +63,26 @@ public class Insert {
                 String[] key = s1.split(",");
                 String[] value = s22.split(",");
 
+                for(int i = 0; i < key.length; i++){
+                    key[i] = key[i].trim();
+                }
+
+                for(int i = 0; i < value.length; i++){
+                    value[i] = value[i].trim();
+                }
+
                 //String s = "";      //最终要存储的字符串对象
 
 //                System.out.println(s1);
 //                System.out.println(s2);
+
+//                for(String k: key){
+//                    System.out.println(k);
+//                }
+//
+//                for(String k: value){
+//                    System.out.println(k);
+//                }
 
 
                 String sep = SQLConstant.getSeparate();
@@ -86,7 +101,9 @@ public class Insert {
                         s += "null" + sep;
                     }
                 }
-                System.out.println(s);
+                //System.out.println(s);
+                writeFile(s);
+                System.out.println("Query OK");
                 Input.get();
             }
         }
@@ -100,10 +117,10 @@ public class Insert {
     /**
      * @Description  : 获取该表的所有列名
      * @author       : 马驰
-     * @param        : path 表的路径
+     * @param        : path 表的路径; i 需要读出第i行
      * @return       : List 所有列名组成的列表
      */
-    private static List<String> getColumnName(String path){
+    private static List<String> getColumnName(String path, int i){
         List<String> list = new ArrayList<>();
 
         //对文件进行读取
@@ -114,14 +131,30 @@ public class Insert {
             //StringBuilder sb = new StringBuilder(); //定义一个字符串缓存
             String s = "";
 
-            //只读取第一行,第一行存放的是列名
-            if((s = bufferedReader.readLine()) != null){
-                String sep = SQLConstant.getSeparate();     //获取分隔符
-                String[] strings = s.split(sep);
-                for(String s1:strings){
-                    list.add(s1);
+            int index = 0;
+
+            //读取第i行
+            while((s = bufferedReader.readLine()) != null){
+                index++;
+                if(index == i) {
+                    String sep = SQLConstant.getSeparate();     //获取分隔符
+                    String[] strings = s.split(sep);
+                    for(String s1:strings){
+                        list.add(s1);
+                    }
+                    return list;
+                    //System.out.println(s);
                 }
             }
+
+//            //只读取第一行,第一行存放的是列名
+//            if((s = bufferedReader.readLine()) != null){
+//                String sep = SQLConstant.getSeparate();     //获取分隔符
+//                String[] strings = s.split(sep);
+//                for(String s1:strings){
+//                    list.add(s1);
+//                }
+//            }
 
             bufferedReader.close();
         }catch(IOException e){
@@ -141,6 +174,50 @@ public class Insert {
     private static String transMean(String str){
         String sep = SQLConstant.getSeparate();     //分隔符
         String s = str.replaceAll(sep, sep + sep);
+
+        return s;
+    }
+
+    /**
+     * @Description  : 将字符串写入数据库文件中
+     * @author       : 马驰
+     * @param        : s 需要写入的字符串,代表数据中的一行
+     * @return       : 无
+     */
+    private static void writeFile(String s){
+        //获取分隔符
+        String sep = SQLConstant.getSeparate();
+        //获取当前表的路径
+        String path = SQLConstant.getNowPath();
+        String nowPath = path + "\\" + tableName + ".txt";
+
+        //System.out.println();
+        //System.out.println(str);
+        //System.out.println(str);
+
+
+        try{
+            FileOutputStream fos = new FileOutputStream(
+                    new File(nowPath), true);
+            s += "\r\n";
+            fos.write(s.getBytes());
+            fos.close();
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * @Description  : 检查输入值的类型与之前定义字段的类型是否匹配
+     * @author       : 马驰
+     * @param        : type 该字段的数据类型; str 需要检查的字符串
+     * @return       : String 检查完后要返回的字符串,例如char类型的要去掉""
+     */
+    private static String check(String type, String str){
+        String s = "";
+        switch(type){
+
+        }
 
         return s;
     }
