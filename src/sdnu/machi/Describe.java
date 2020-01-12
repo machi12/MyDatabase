@@ -67,7 +67,9 @@ public class Describe {
             BufferedReader bufferedReader = new BufferedReader(reader);
             //StringBuilder sb = new StringBuilder(); //定义一个字符串缓存
             String s = "";
-            while((s = bufferedReader.readLine()) != null){
+            int index = 1;
+            while((s = bufferedReader.readLine()) != null && index < 4){
+                index++;
                 list.add(s);
                 //System.out.println(s);
             }

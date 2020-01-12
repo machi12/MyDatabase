@@ -49,6 +49,7 @@ public class Insert {
                 Input.get();
             } else {
                 List<String> columnName = getColumnName(nowPath, 1);
+                List<String> type = getColumnName(nowPath, 2);
 //                for(String s: columnName){
 //                    System.out.println(s);
 //                }
@@ -88,22 +89,41 @@ public class Insert {
                 String sep = SQLConstant.getSeparate();
                 int len = columnName.size();
                 String s = "";      //最终要存储的字符串对象
+                int flag1 = 0;
                 for(int i = 0; i < len; i++){
                     String s3 = columnName.get(i);
                     int flag = 0;
                     for(int j = 0; j < key.length; j++){
                         if(key[j].equals(s3)){
-                            s += value[j] + sep;
-                            flag = 1;
+                            //System.out.println(type.get(i) + "   " + value[j]);
+                            String s4 = check(type.get(i), value[j]);
+                            if(s4 == null){
+                                flag1 = 1;
+                                break;
+                            }
+                            else if(s4 == "machi"){
+                                s += value[j] + sep;
+                                flag = 1;
+                            }
+                            else {
+                                s += s4 + sep;
+                                flag = 1;
+                            }
                         }
                     }
                     if(flag == 0){
                         s += "null" + sep;
                     }
+                    if(flag1 == 1){
+                        break;
+                    }
                 }
                 //System.out.println(s);
-                writeFile(s);
-                System.out.println("Query OK");
+                //System.out.println(flag1);
+                if(flag1 == 0) {
+                    writeFile(s);
+                    System.out.println("Query OK");
+                }
                 Input.get();
             }
         }
@@ -120,7 +140,7 @@ public class Insert {
      * @param        : path 表的路径; i 需要读出第i行
      * @return       : List 所有列名组成的列表
      */
-    private static List<String> getColumnName(String path, int i){
+    public static List<String> getColumnName(String path, int i){
         List<String> list = new ArrayList<>();
 
         //对文件进行读取
@@ -214,12 +234,28 @@ public class Insert {
      * @return       : String 检查完后要返回的字符串,例如char类型的要去掉""
      */
     private static String check(String type, String str){
-        String s = "";
-        switch(type){
+        boolean b = type.contains("char");
+        //boolean c = type.contains("varchar");
+        //System.out.println(b);
 
+        if(b){
+            Pattern pattern = Pattern.compile("\".*\"");
+            Matcher matcher = pattern.matcher(str);
+            if(matcher.find()){
+                //System.out.println("this is machi");
+                String s = str.replaceAll("\"", "");
+                //System.out.println(s);
+                return s;
+            }
+            else{
+                System.out.println("ERROR: 输入值的格式错误");
+                return null;
+            }
+        }
+        else{
+            return "machi";
         }
 
-        return s;
     }
 
 }
