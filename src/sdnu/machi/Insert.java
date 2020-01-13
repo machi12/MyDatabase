@@ -37,14 +37,16 @@ public class Insert {
             Matcher matcher = pattern.matcher(sql);
             while (matcher.find()) {
                 list1.add(matcher.group());
+                //System.out.println(matcher.group());
             }
 //            System.out.println(list1.size());
 //            for(String s:list1){
 //                System.out.println(s);
 //            }
 
-            //判断语句是否正确,根据()的数据
-            if (list.size() != 2) {
+            //判断语句是否正确,根据()的数目
+            //System.out.println(list.size());
+            if (list1.size() != 2) {
                 System.out.println("ERROR: 语句有错误");
                 Input.get();
             } else {

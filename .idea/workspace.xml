@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd2e28ed-f5a0-4276-a1ab-bd7c55681a46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sdnu/machi/Select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sdnu/machi/Drop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/sdnu/machi/Describe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/sdnu/machi/Describe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/sdnu/machi/Insert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/sdnu/machi/Insert.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/sdnu/machi/SqlAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/sdnu/machi/SqlAnalysis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdnu/machi/Describe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Describe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sdnu/machi/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Insert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sdnu/machi/SqlAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/SqlAnalysis.java" afterDir="false" />
     </list>
@@ -173,7 +169,9 @@
       <workItem from="1577966426415" duration="4876000" />
       <workItem from="1578707426437" duration="13290000" />
       <workItem from="1578820611032" duration="491000" />
-      <workItem from="1578821198566" duration="3703000" />
+      <workItem from="1578821198566" duration="4978000" />
+      <workItem from="1578875741249" duration="3742000" />
+      <workItem from="1578896301756" duration="2009000" />
     </task>
     <task id="LOCAL-00001" summary="1.7">
       <created>1578727760631</created>
@@ -221,22 +219,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="0" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1577374922516" />
-    <state width="1237" height="523" key="GridCell.Tab.0.bottom" timestamp="1578833802653">
+    <state width="1237" height="519" key="GridCell.Tab.0.bottom" timestamp="1578898334287">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578833802653" />
-    <state width="1237" height="523" key="GridCell.Tab.0.center" timestamp="1578833802653">
+    <state width="1237" height="519" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578898334287" />
+    <state width="1237" height="519" key="GridCell.Tab.0.center" timestamp="1578898334287">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578833802653" />
-    <state width="1237" height="523" key="GridCell.Tab.0.left" timestamp="1578833802653">
+    <state width="1237" height="519" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578898334287" />
+    <state width="1237" height="519" key="GridCell.Tab.0.left" timestamp="1578898334287">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578833802653" />
-    <state width="1237" height="523" key="GridCell.Tab.0.right" timestamp="1578833802653">
+    <state width="1237" height="519" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578898334287" />
+    <state width="1237" height="519" key="GridCell.Tab.0.right" timestamp="1578898334287">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578833802653" />
+    <state width="1237" height="519" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578898334287" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1577461289631">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -269,6 +267,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="756" y="261" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1577718834741" />
+    <state x="371" y="106" key="extract.method.dialog" timestamp="1578897802225">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="106" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1578897802225" />
     <state x="28" y="0" key="new project wizard" timestamp="1577422563550">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

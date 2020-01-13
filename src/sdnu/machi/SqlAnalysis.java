@@ -21,6 +21,7 @@ public class SqlAnalysis {
     private static final String describe = "describe";
     private static final String insert = "insert";
     private static final String select = "select";
+    private static final String drop = "drop";
 
 
     public static void analysis(String sql){
@@ -60,6 +61,9 @@ public class SqlAnalysis {
                 break;
             case select:
                 Select.selectSql(sql);
+                break;
+            case drop:
+                Drop.dropSql(sql);
                 break;
             default:
                 System.out.println("输入的命令无法识别,可以输入help查看目前支持的sql语句");
