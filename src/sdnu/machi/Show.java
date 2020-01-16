@@ -46,7 +46,7 @@ public class Show {
 //                System.out.println(index);
 //                System.out.println(nowPath.length());
                 String dbName = nowPath.substring(index+1, nowPath.length());
-                System.out.println(dbName);
+                //System.out.println(dbName);
                 list.add(dbName);
 
                 List<List<String>> tList = new ArrayList<>();

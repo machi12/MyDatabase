@@ -140,7 +140,8 @@ public class Drop {
             boolean b = confirm();
             if (b) {
                 String nowPath = path + "\\" + tableName + ".txt";
-                deleteFile(new File(nowPath));
+                File file = new File(nowPath);
+                file.delete();
                 System.out.println("Query OK");
             }
             else{
