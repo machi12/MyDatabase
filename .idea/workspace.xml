@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dd2e28ed-f5a0-4276-a1ab-bd7c55681a46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/sdnu/machi/Drop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/sdnu/machi/Drop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDatabase/sdnu/machi/Show.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyDatabase/sdnu/machi/Show.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdnu/machi/Drop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Drop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdnu/machi/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdnu/machi/Show.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +167,9 @@
       <workItem from="1578875741249" duration="3742000" />
       <workItem from="1578896301756" duration="2009000" />
       <workItem from="1579144466088" duration="2995000" />
+      <workItem from="1579238107381" duration="797000" />
+      <workItem from="1579343996204" duration="607000" />
+      <workItem from="1579406780051" duration="442000" />
     </task>
     <task id="LOCAL-00001" summary="1.7">
       <created>1578727760631</created>
